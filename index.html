@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,142 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Website</title>
 </head>
+
 <body>
     <header>
         <a href="#" class="logo">Vivek</a>
 
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
             <a href="#">Educations</a>
             <a href="#">Experience</a>
             <a href="#">Contact</a>
-        </nav>   
+        </nav>
     </header>
-    <section class="home">
-        <div class = "home-img">
+    <section class="home" id="home">
+        <div class="home-img">
             <img src="main.jpeg" alt="">
         </div>
         <div class="home-content">
             <h1>Hi,it's <span>Vivek</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Web Developer passionate about building creative websites, YouTuber sharing knowledge and experiences, and Gamer enjoying challenges one level at a time.
-</p>
+            <p>Web Developer passionate about building creative websites, YouTuber sharing knowledge and experiences,
+                and Gamer enjoying challenges one level at a time.
+            </p>
             <div class="Social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vivek-singh-4b882320b/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ins-lu3fer" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/ins_lu3fer/?hl=en" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
             </div>
             <a href="#" class="btn">Hire me</a>
         </div>
     </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p class="section-subtitle">Technologies & tools I work with</p>
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">HTML</span><span class="skill-percent">100%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="100"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">CSS</span><span class="skill-percent">90%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">JavaScript</span><span class="skill-percent">80%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">Python</span><span class="skill-percent">80%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">React Native</span><span class="skill-percent">80%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">Java</span><span class="skill-percent">90%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">Git &amp; GitHub</span><span class="skill-percent">90%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">Figma / UI Design</span><span class="skill-percent">68%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-leaf"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">MongoDB</span><span class="skill-percent">65%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                <div class="skill-info">
+                    <div class="skill-header"><span class="skill-name">SQL / MySQL</span><span class="skill-percent">78%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        // Animate skill bars on scroll
+        const fills = document.querySelectorAll('.skill-fill');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const fill = entry.target;
+                    fill.style.width = fill.dataset.width + '%';
+                }
+            });
+        }, { threshold: 0.3 });
+        fills.forEach(fill => observer.observe(fill));
+    </script>
 </body>
+
 </html>
